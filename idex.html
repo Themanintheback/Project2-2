@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f56dcf01fc.js" crossorigin="anonymous"></script>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <title>RPSLS</title>
+</head>
+<body>
+    <h1 class="heading">
+       <img class="logo" src="assets/images/rpsls.webp" alt="Logo"> heading
+    </h1>
+    <div class="game-area">
+        <div class="symbols-area">
+            <button data-type="rock" class="spock-btn">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button data-type="paper" class="spock-btn">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button data-type="sicssors" class="spock-btn">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+            <button data-type="Lizard" class="spock-btn">
+                <i class="fa-solid fa-hand-lizard"></i>
+            </button>
+            <button data-type="spock" class="spock-btn">
+                <i class="fa-solid fa-hand-spock"></i>
+            </button>
+        </div>
+        <div class="result-area"></div>
+    </div>
+
+    <div class="score-board">
+        <p class="scores">ME</p><span></span id="Me">0</span>
+        <p class="scores">Computer</p><span></span id="Computer">0</span>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
